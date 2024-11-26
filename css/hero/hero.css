@@ -1,0 +1,39 @@
+.main {
+    background-color: #fff8f3;
+    
+    overflow-x: clip;
+
+}
+.top {
+padding: 40px 0 150px;
+
+}
+.top__inner {
+    position: relative;
+}
+.top__content {
+    width: 370px;
+    padding: 150px 0 250px;
+}
+.top__title {
+    font-family: "Yeseva One", serif;
+    font-size: 30px; 
+    margin-bottom: 15px;
+    /* font-weight: 700; */
+ 
+}
+.top__text {
+    margin-bottom: 48px;
+}
+.top__buy {
+    background: #ffbd59;
+    padding: 18px 54px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.top__img {
+    position: absolute;
+    top: 0;
+    left: 240px;
+}

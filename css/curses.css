@@ -1,0 +1,33 @@
+.curses__item-img {
+    position: relative;
+    color: #fff;
+    font-size: 11px;
+    font-family: "Yeseva One", serif;
+
+}
+.curses__title {
+    padding: 15px;
+    left: 10px;
+    top: 45%;
+}
+.curses__time {
+    padding: 7px 10px;
+    left: 10px;
+    top: 60%;
+}
+.curses__time time {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 10px;
+}
+.curses__price{
+    padding: 19px 10px;
+    right: 0px;
+    bottom: 2px;
+ 
+}
+.curses__title,
+.curses__time,
+.curses__price {
+    background: #BEA495;
+    position: absolute;
+}

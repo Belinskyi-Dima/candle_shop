@@ -1,0 +1,48 @@
+.steps__inner {
+    display: flex;
+    gap: 0 20px;
+}
+.steps__list {
+    gap: 70px 25px;
+    counter-reset: number;
+    /* position: relative; */
+}
+.section__content-descr {
+}
+.section--decor {
+}
+.steps__item {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    position: relative;
+}
+.steps__item::before {
+    counter-increment: number;
+    content: "0"counter(number);
+    position: absolute;
+    bottom: 0;
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    color: #BEA495;
+}
+.steps__item:nth-child(n+10)::before {
+    /* counter-increment: number; */
+    content: counter(number);
+    /* position: absolute;
+    bottom: 0;
+    font-family: "Yeseva One", serif;
+    font-size: 40px;
+    color: #BEA495; */
+}
+.steps__item--odd {
+    
+}
+.steps__item-text {
+    padding-bottom: 30px;
+}
+.steps__item-img {
+}
+.steps__item--even {
+    flex-direction: row-reverse;
+}

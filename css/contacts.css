@@ -1,0 +1,46 @@
+
+.contacts {
+    padding: 150px 0 50px;
+}
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.form {
+    background-color: #fff;
+    /* width: 664px; */
+    width: 100%;
+    padding: 75px 42px; 
+}
+.form__title {
+    /* font-family: "Yeseva One", serif;  */
+    margin-bottom: 50px;
+}
+.form__label {
+    margin-bottom: 15px;
+    display: block;
+}
+.form__input {
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    padding: 7px 10px;
+    color: #000;
+  
+}
+.form__input::placeholder {
+    color: #B3B3B3;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.form__btn {
+    margin-top: 36px;
+}
+.contacts__img {
+    object-fit: cover;
+}

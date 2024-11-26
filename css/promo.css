@@ -1,0 +1,29 @@
+.promo {
+    background-image: url(../images/promo/promo_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+}
+.promo__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.promo__text {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Yeseva One", serif; 
+    /* padding-left: 56px; */
+    /* max-width: 765px; */
+    margin-right: 10px;
+}
+.promo__link {
+   color: #272727;
+   padding: 17px 45px;
+   text-align: center;
+   /* background: #FFBD59;  */
+   /* width: 170px; */
+  
+}

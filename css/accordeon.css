@@ -1,0 +1,53 @@
+.questions__content {
+}
+.accordeon {
+    /* gap: 10px 0; */
+}
+.accordeon__item {
+    /* background-color: #FAFAFA; */
+    /* background: red; */
+    padding: 16px 13px;
+    
+}
+.accordeon__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.accordeon__title {
+    font-size: 16px;
+    font-family: "Yeseva One", serif;
+    display: block;
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding-right: 54px;
+    /* margin-bottom: 20px; */
+}
+.accordeon__title::after {
+    content: "";
+    position: absolute;
+    background-image: url(../images/accordion_arrow.svg);
+    height: 16px;
+    width: 16px;
+    right: 26px;
+    top: 50%; /* Центруємо стрілку вертикально */
+    transform: translateY(-50%);
+}
+.accordeon__title.accordeon__title--active::after {
+    transform: rotate(180deg);
+}
+.accordeon__text {
+    /* padding: 20px 20px 0 20px; */
+    background-color: #FAFAFA;
+    opacity: 0;
+     max-height: 0; 
+     overflow: hidden; 
+    transition: max-height 0.3s ease, opacity 0.2s; 
+    
+}
+
+
+.accordeon__text.accordeon__text--active {
+    margin-top: 20px;
+    opacity: 1;
+}

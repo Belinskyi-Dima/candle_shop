@@ -1,0 +1,39 @@
+.about {
+    background-color: #A5978E;
+    padding: 50px 0 ;
+    color: #FAFAFA;
+    margin-bottom: 150px;
+}
+.about__inner {
+    display: flex;
+    align-items: center;
+}
+.about__content {
+    min-width: 370px;
+    /* min-width: 200px; */
+    /* flex-basis: 370px; */
+    
+}
+
+.about__text {
+    margin-bottom: 15px;
+}
+.about__list {
+    display: flex;
+    flex-basis: 930px;
+    padding-left: 110px;
+    padding-bottom: 48px;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+
+.about__item {
+}
+.about__item-img {
+    margin-bottom: 10px;
+}
+.about__item-text {
+    font-size: 11px;
+}

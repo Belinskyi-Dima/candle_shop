@@ -1,0 +1,30 @@
+
+.team {
+    background: #A5978E;
+    padding: 80px 0 60px;
+    color: #fff;
+
+}.team__content {
+    padding-bottom: 0;
+    gap: 75px  ;
+}
+.team__item {
+position: relative;
+}
+.team__item-box {
+    background: #7B6152;
+    text-align: center;
+    position: absolute;
+    padding: 15px 10px 13px;
+    width: 165px;
+    bottom: 13px;
+    right: 50px;
+}
+.team__item-name {
+    font-family: "Yeseva One", serif;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+.team__item-descr {
+    font-size: 10px;
+}
